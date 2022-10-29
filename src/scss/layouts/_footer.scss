@@ -1,6 +1,6 @@
 .rswhykl-44 {
     background: $color-accent-5;
-    padding: 50px 0;
+    padding: 15px 0;
     font-size: var(--fs-6);
     color: $color-white-1;
     @media (max-width: $sm) {
@@ -14,6 +14,7 @@
         position: relative;
     }
     &__row {
+        align-items: center;
     }
     &__col {
         @media (max-width: $xs) {
