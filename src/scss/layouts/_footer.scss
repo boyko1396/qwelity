@@ -1,0 +1,46 @@
+.rswhykl-44 {
+    background: $color-accent-5;
+    padding: 50px 0;
+    font-size: var(--fs-6);
+    color: $color-white-1;
+    @media (max-width: $sm) {
+        padding: 25px 0;
+    }
+    @media (max-width: $xs) {
+        padding: 20px 0;
+        text-align: center;
+    }
+    &__container {
+        position: relative;
+    }
+    &__row {
+    }
+    &__col {
+        @media (max-width: $xs) {
+            max-width: 100%;
+            flex-basis: 100%;
+        }
+        &--terms {
+        }
+        &--copyright {
+            text-align: right;
+            @media (max-width: $xs) {
+                text-align: center;
+            }
+        }
+    }
+    &__text {
+        margin: 0;
+        line-height: 1.6;
+        a {
+            box-shadow: 0 1px 0 transparent;
+            transition: all .4s;
+            transform-property: color, box-shadow;
+            &:hover {
+                color: $color-gray-1;
+                text-decoration: none;
+                box-shadow: 0 1px 0 rgba($color-gray-1, .5);
+            }
+        }
+    }
+}
